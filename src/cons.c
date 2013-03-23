@@ -19,7 +19,6 @@
 #include <cons.h>
 #include <types.h>
 #include <system.h>
-#include <time.h>
 #include <str.h>
 
 
@@ -48,22 +47,6 @@ cmd.priority=0;
 UCT[cmdNum]=cmd;
 cmdNum++;
 
-strcopy(cmd.cmd_name,"date");
-cmd.cmd_void_adress = date;
-cmd.privilege= 1;	
-cmd.priority=0;
-UCT[cmdNum]=cmd;
-cmdNum++;
-
-strcopy(cmd.cmd_name,"day");
-cmd.cmd_void_adress = dayOfWeek; 
-cmd.privilege= 1;	
-cmd.priority=0;
-UCT[cmdNum]=cmd;
-cmdNum++;
-
-
-
 strcopy(cmd.cmd_name,"echo");	
 cmd.cmd_void_adress = echo;
 cmd.privilege= 1;
@@ -84,14 +67,6 @@ cmd.privilege= 1;
 cmd.priority=0;
 UCT[cmdNum]=cmd;
 cmdNum++;
-
-strcopy(cmd.cmd_name,"time");
-cmd.cmd_void_adress = sys_time ; 
-cmd.privilege= 1;	
-cmd.priority=0;
-UCT[cmdNum]=cmd;
-cmdNum++;
-
 
 strcopy(cmd.cmd_name,"version");
 cmd.cmd_void_adress =version;

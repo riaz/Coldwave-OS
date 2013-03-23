@@ -16,7 +16,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 #include <cons.h>
 #include <system.h>
-//#include <time.h>
 #include <conf.h>
 
 void shellExit(short EXIT_STATUS)

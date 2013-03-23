@@ -16,7 +16,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.*/
 #include <system.h>
 #include <types.h>
-#include <time.h>
 
 void *memcpy(void *dest, const void *src, size_t count)
 {
@@ -113,7 +112,7 @@ void main()
 	printf("Entering Protected Mode.................");
 	settextcolor(GREEN,BLACK);
 	printf("[OK]\n");	
-
+	
 	 	
     LoadConsole();			//loads the basic console
 
