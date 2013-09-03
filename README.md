@@ -47,7 +47,7 @@ The possible sets of virtual-machines that one may use are-
 2.Run the file cold_wave.bxrc in the bundle,to test the OS in bochs.
 
 
-[3] DEVELOPMENT
+[4] DEVELOPMENT
 -------------------------------------------------------------------------------------
 Please read the developers documentation, to start development using this OS.
 
